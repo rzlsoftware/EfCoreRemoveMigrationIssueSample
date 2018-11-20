@@ -1,6 +1,6 @@
 # EfCoreRemoveMigrationIssueSample
 
-Sample Project for [Ef Core Issue 0000]().
+Sample project for Ef Core Issue aspnet/EntityFrameworkCore#13984
 
 Remove migration makes invalid changes to `ModelSnapshot` when using `TPH` with discriminator type `char`.
 
