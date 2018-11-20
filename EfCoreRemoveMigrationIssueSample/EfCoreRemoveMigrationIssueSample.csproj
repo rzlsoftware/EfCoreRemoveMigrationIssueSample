@@ -48,6 +48,10 @@
     <Compile Include="Migrations\20181120092919_InitialMigration.designer.cs">
       <DependentUpon>20181120092919_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20181120093210_MigrationToRemove.cs" />
+    <Compile Include="Migrations\20181120093210_MigrationToRemove.designer.cs">
+      <DependentUpon>20181120093210_MigrationToRemove.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\SampleDbContextModelSnapshot.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
