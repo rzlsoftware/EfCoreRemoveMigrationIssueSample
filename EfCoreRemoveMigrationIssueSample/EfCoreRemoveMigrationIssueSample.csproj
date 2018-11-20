@@ -55,6 +55,11 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer">
       <Version>2.1.4</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools">
+      <Version>2.1.4</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
