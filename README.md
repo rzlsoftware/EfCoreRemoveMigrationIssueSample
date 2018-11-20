@@ -42,5 +42,6 @@ public class SampleDbContext : DbContext
 #### Repro Steps
  - call Remove-Migration
  - look at changes in Model Snapshot
+ - *expected **No Change***
  
  ![ModelSnapshot](ModelSnapshotDifference.PNG)
