@@ -39,6 +39,8 @@ public class SampleDbContext : DbContext
 }
 ```
 
+Important is the discriminator type `char`. The problem does not occur when using `int`, `short` or `string`. 
+
 #### Repro Steps
  - call Remove-Migration
  - look at changes in Model Snapshot
