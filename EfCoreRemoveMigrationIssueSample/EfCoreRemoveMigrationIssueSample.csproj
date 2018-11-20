@@ -43,6 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Customer.cs" />
+    <Compile Include="Migrations\20181120092145_MigrationToRemove.cs" />
+    <Compile Include="Migrations\20181120092145_MigrationToRemove.designer.cs">
+      <DependentUpon>20181120092145_MigrationToRemove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\SampleDbContextModelSnapshot.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
