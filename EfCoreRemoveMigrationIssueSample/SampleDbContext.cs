@@ -15,7 +15,8 @@ namespace EfCoreRemoveMigrationIssueSample
             modelBuilder.Entity<Person>(b =>
             {
                 b.HasDiscriminator<char>("Type")
-                    .HasValue<Customer>('C');
+                    .HasValue<Customer>('C')
+                    .HasValue<Employee>('E');
             });
         }
     }
