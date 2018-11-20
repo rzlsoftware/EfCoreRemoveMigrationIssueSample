@@ -44,6 +44,11 @@
   <ItemGroup>
     <Compile Include="Customer.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="Migrations\20181120092919_InitialMigration.cs" />
+    <Compile Include="Migrations\20181120092919_InitialMigration.designer.cs">
+      <DependentUpon>20181120092919_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\SampleDbContextModelSnapshot.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
