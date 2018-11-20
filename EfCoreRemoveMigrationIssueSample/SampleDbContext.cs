@@ -8,7 +8,7 @@ namespace EfCoreRemoveMigrationIssueSample
         public DbSet<Customer> Customers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseSqlServer("Server=localhost;Database=EfCoreRemoveMigrationIssueSample;Trusted Connection=True");
+            => optionsBuilder.UseSqlServer("Server=localhost;Database=EfCoreRemoveMigrationIssueSample;Integrated Security=True");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
